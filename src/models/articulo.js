@@ -4,16 +4,16 @@ import mysql from 'mysql2/promise';
     host: 'localhost',
     user: 'root',
     port: 3306,
-    password: '21sorare80',
+    password: 'root',
     database: 'mundosorare'
 };*/
 
 const DEFAULT_CONFIG = {
     host: 'bd-mundosorare.c7cqa0i6o07b.us-east-1.rds.amazonaws.com',
-    user: 'bd-mundosorare',
+    user: 'adminsorare',
     port: 3306,
-    password: 'root',
-    database: 'bd-mundosorare'
+    password: '21sorare80',
+    database: 'mundosorare'
 };
 
 const connectionString = DEFAULT_CONFIG
