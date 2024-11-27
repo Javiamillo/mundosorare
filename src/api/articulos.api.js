@@ -1,7 +1,9 @@
 import axios from "axios";
 
 export const getArticulosRequest = async () =>
-    await axios.get('http://localhost:1234/articulos');
+    /*await axios.get('http://localhost:1234/articulos');*/
+    await axios.get('http://98.84.32.70:3000/articulos');
 
 export const getArticuloRequest = async (id) =>
-    await axios.get(`http://localhost:1234/articulos/${id}`);
+    /*await axios.get(`http://localhost:1234/articulos/${id}`);*/
+    await axios.get(`http://98.84.32.70:3000/articulos/${id}`);

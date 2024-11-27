@@ -14,7 +14,9 @@ export const createApp = ({ articuloModel }) => {
   app.disable('x-powered-by')
 
   app.use('/articulos', createArticuloRouter({ articuloModel }))
-  const PORT = process.env.PORT || 1234
+  /*const PORT = process.env.PORT || 1234*/
+  const PORT = process.env.PORT || 3000
+
   app.listen(PORT, () => {
     console.log(`server listening on port ${PORT}`)
   })

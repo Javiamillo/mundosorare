@@ -1,11 +1,19 @@
 import mysql from 'mysql2/promise';
 
-const DEFAULT_CONFIG = {
+/*const DEFAULT_CONFIG = {
     host: 'localhost',
     user: 'root',
     port: 3306,
-    password: 'root',
+    password: '21sorare80',
     database: 'mundosorare'
+};*/
+
+const DEFAULT_CONFIG = {
+    host: 'bd-mundosorare.c7cqa0i6o07b.us-east-1.rds.amazonaws.com',
+    user: 'bd-mundosorare',
+    port: 3306,
+    password: 'root',
+    database: 'bd-mundosorare'
 };
 
 const connectionString = DEFAULT_CONFIG

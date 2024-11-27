@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { lazy, Suspense } from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Menu from "./views/Menu"
