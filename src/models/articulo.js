@@ -17,10 +17,8 @@ const DEFAULT_CONFIG = {
 };
 
 const connectionString = DEFAULT_CONFIG
-console.log(connectionString)
 const connection = await mysql.createConnection(connectionString);
 
-console.log ('connection: ' + connection.data)
 
 export class ArticuloModel {
     static async getAll () {

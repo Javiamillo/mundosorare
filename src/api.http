@@ -1,5 +1,5 @@
 
-GET http://localhost:1234/articulos
+GET http://98.84.32.70:3000/articulos
 
 
 
